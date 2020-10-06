@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="row">
+                {% for image in img_list %}
+                    <div>
+			                <img src="{{ image }}" style="border:0px;margin:0px;clear:both;width:500px;height:500px;padding:20px;">
+                             <br>
+                        <br>
+		            </div>
+                {% endfor %}
+    </div>
+{% endblock %}

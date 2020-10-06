@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<br>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Youtube Video Title</th>
+      <th scope="col">URL</th>
+      <th scope="col">Date Processed</th>
+      <th scope="col">Process Type</th>
+    </tr>
+  </thead>
+    <tbody>
+    {% for vid in vids %}
+
+    <tr>
+        <th scope="row">{{vid.video_title}}</th>
+        <td>{{vid.youtube_url}}</td>
+        <td>{{vid.date_processed}}</td>
+        <td>{{vid.process}}</td>
+        <td><a class="btn btn-danger" href='/admin/delete/{{vid.id}}'>Delete</a> </td>
+
+    </tr>
+
+{% endfor %}
+       </tbody>
+</table>
+{% endblock %}

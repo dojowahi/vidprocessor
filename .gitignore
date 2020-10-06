@@ -1,0 +1,6 @@
+venv/
+list.py
+requirements.txt
+Dockerfile
+.idea/
+__pycache__/
