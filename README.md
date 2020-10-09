@@ -7,10 +7,10 @@ The aim of the project is to provide the user an easy interface to download yout
 or get the transcription.
 
 ##### Example URLS for testing
-video_url = 'https://www.youtube.com/watch?v=FUiu-cdu6mA'
-audio_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'
-text_url ='https://www.youtube.com/watch?v=3EbTr79wLkU'
-vid_aud_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'
+video_url = 'https://www.youtube.com/watch?v=FUiu-cdu6mA'  
+audio_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'  
+text_url ='https://www.youtube.com/watch?v=3EbTr79wLkU'  
+vid_aud_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'  
 
 
 
