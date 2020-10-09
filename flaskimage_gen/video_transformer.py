@@ -4,7 +4,6 @@ import pytube
 import cv2
 import uuid
 import pathlib
-import speech_recognition as sr
 import moviepy.editor as mp
 from youtube_transcript_api import YouTubeTranscriptApi
 
@@ -16,7 +15,7 @@ class Extractor():
 
     def __init__(self, url="https://www.youtube.com/watch?v=668nUCeBHyY", vid_type=0):
 
-        self.base_path = pathlib.Path('C:/Users/682528/PycharmProjects/videoapi/flaskimage_gen/static')
+        self.base_path = pathlib.Path('C:/Users/682528/pythonproj/youtube_video_processor/vidprocessor/flaskimage_gen/static')
         self.url = url
         self.vid_type = vid_type
         if self.vid_type == 0:
@@ -174,7 +173,7 @@ audio_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'
 text_url ='https://www.youtube.com/watch?v=3EbTr79wLkU'
 vid_aud_url = 'https://www.youtube.com/watch?v=fT67ta4VrQQ'
 # 'https://www.youtube.com/watch?v=fT67ta4VrQQ'
-# fe = Extractor(text_url,2)
+# fe = Extractor(text_url,3)
 # fe = Extractor(video_url,0)
 # fe = Extractor(vid_aud_url,2)
 # fe.download()
