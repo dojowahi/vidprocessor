@@ -7,3 +7,5 @@ __pycache__/
 flaskimage_gen/static/audio
 flaskimage_gen/static/image
 flaskimage_gen/static/video
+flaskimage_gen/static/text
+flaskimage_gen/static/aud_vid
